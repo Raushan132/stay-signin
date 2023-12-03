@@ -1,3 +1,4 @@
+import Login from "./components/Login"
 import Registration from "./components/Registration"
 
 
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Registration />
+      {/* <Registration /> */}
+      <Login />
     </>
   )
 }
