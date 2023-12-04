@@ -1,3 +1,32 @@
+.form-data{
+  position: absolute;
+  display: flex;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:4
+}
+
+.title{
+    font-size: 26px;
+    text-align: center;
+}
+.group-form{
+  display: flex;
+  flex-direction: column;
+
+  gap:5px;
+}
+
+.group-form div{
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -30,10 +59,7 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+
 
 button {
   border-radius: 8px;
